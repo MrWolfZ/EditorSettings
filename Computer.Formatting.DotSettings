@@ -410,8 +410,8 @@ II.2.12 &lt;HandlesEvent /&gt;&#xD;
 &lt;/Patterns&gt;&#xD;
 </s:String>
 	<s:String x:Key="/Default/CodeStyle/CSharpMemberOrderPattern/LayoutType/@EntryValue">CustomLayout</s:String>
-	<s:String x:Key="/Default/CodeStyle/CSharpUsing/MandatoryImports/=System/@EntryIndexedValue">System</s:String>
-	<s:String x:Key="/Default/CodeStyle/CSharpUsing/MandatoryImports/=System_002ELinq/@EntryIndexedValue">System.Linq</s:String>
+	
+	
 	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=LocalConstants/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateInstanceFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateStaticFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
