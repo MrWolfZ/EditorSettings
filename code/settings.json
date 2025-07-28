@@ -3,11 +3,201 @@
   "html.format.endWithNewline": true,
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
-  "beautify.tabSize": 2,
-  "beautify.options": {
-    "end_with_newline": true,
-    "preserve_newlines": true,
-    "max_preserve_newlines": 10
+  "editor.formatOnPaste": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.autoClosingBrackets": "never",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.newWindowDimensions": "inherit",
+  "workbench.editor.enablePreview": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.referencesCodeLens.enabled": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "editor.tokenColorCustomizations": {
+    "functions": "#ffcc00"
   },
-  "tslint.autoFixOnSave": false
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "variable.readonly": {
+        "foreground": "#9CDCFE"
+      }
+    }
+  },
+  "editor.formatOnSave": true,
+  "editor.autoClosingQuotes": "never",
+  "breadcrumbs.enabled": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.files.associations": {
+    ".editorconfig": "settings",
+    "Justfile": "makefile"
+  },
+  "material-icon-theme.folders.associations": {
+    "obj": "dist",
+    "packageSource": "packages",
+    ".vs": "vscode",
+    ".transformer": "environment"
+  },
+  "debug.toolBarLocation": "hidden",
+  "debug.showInStatusBar": "never",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "yaml.format.bracketSpacing": false,
+  "yaml.format.singleQuote": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[xml]": {
+    "editor.formatOnSave": false
+  },
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "emmet.showExpandedAbbreviation": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "Jenkinsfile": "groovy",
+    "*.Jenkinsfile": "groovy",
+    ".stignore": "ignore"
+  },
+  "telemetry.telemetryLevel": "off",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "docker.showStartPage": false,
+  "gitlens.codeLens.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[helm]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "git.ignoreLimitWarning": true,
+  "git.inputValidationSubjectLength": 80,
+  "git.inputValidationLength": 80,
+  "git.pruneOnFetch": true,
+  "gitlens.advanced.similarityThreshold": 50,
+  "gitlens.blame.ignoreWhitespace": true,
+  "gitlens.liveshare.allowGuestAccess": false,
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
+  },
+  "redhat.telemetry.enabled": false,
+  "terminal.integrated.windowsEnableConpty": false,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.tabs.hideCondition": "never",
+  "terminal.integrated.defaultProfile.windows": "C:\\Program Files\\Git\\bin\\bash.exe (migrated)",
+  "terminal.integrated.profiles.windows": {
+    "C:\\Program Files\\Git\\bin\\bash.exe (migrated)": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.enablePersistentSessions": false,
+  "search.followSymlinks": false,
+  "editor.renderWhitespace": "none",
+  "explorer.autoReveal": false,
+  "vs-kubernetes": {
+    "vs-kubernetes.knownKubeconfigs": [
+      "c:\\Users\\dev\\.kube\\config",
+      "/home/dev/.kube/config"
+    ],
+    "vs-kubernetes.kubeconfig": "/home/dev/.kube/config",
+    "vs-kubernetes.crd-code-completion": "enabled"
+  },
+  "svelte.enable-ts-plugin": true,
+  "editor.bracketPairColorization.enabled": false,
+  "git.suggestSmartCommit": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "go.autocompleteUnimportedPackages": true,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.lens.references.method.enable": true,
+  "rust-analyzer.lens.references.enumVariant.enable": true,
+  "rust-analyzer.lens.references.adt.enable": true,
+  "rust-analyzer.lens.references.trait.enable": true,
+  "rust-analyzer.restartServerOnConfigChange": true,
+  "resmon.show.cpufreq": false,
+  "resmon.show.battery": false,
+  "gitlens.views.branches.branches.layout": "list",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "errorLens.scrollbarHackEnabled": true,
+  "gitlens.currentLine.scrollable": false,
+  "remote.SSH.remotePlatform": {
+    "control-0.k8s.home": "linux"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "lldb.suppressUpdateNotifications": true,
+  "git.openRepositoryInParentFolders": "never",
+  "azureResourceManagerTools.parameterFiles": {
+    "/home/dev/private/aks-experiments/arm-templates/resource-group.json": "resource-group.parameters.json",
+    "/home/dev/private/aks-experiments/arm-templates/cluster.json": "cluster.parameters.json"
+  },
+  "[arm-template]": {
+    "editor.defaultFormatter": "msazurermtools.azurerm-vscode-tools"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "gitlens.launchpad.indicator.enabled": false,
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": false,
+    "remotes": false,
+    "stashes": false,
+    "tags": false,
+    "worktrees": false,
+    "contributors": false,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "terminal.integrated.shellIntegration.enabled": false,
+  "editor.multiCursorPaste": "full",
+  "chat.commandCenter.enabled": false,
+  "files.insertFinalNewline": true,
+  "docker.extension.enableComposeLanguageServer": false,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "go.toolsManagement.autoUpdate": true,
+  "metaGo.decoration.additionalSingleCharCodeCharacters": "a,i,e,h,n,t,s,c,u,o,f,j,d,g",
+  "metaGo.decoration.backgroundColor": "#ffcc00",
+  "metaGo.decoration.characters": "a,i,e,h,n,t,s,c,u,o,f,j,d,g",
+  "metaGo.jumper.commandsToUseSingleTargetChar": [
+    "metaGo.selectSmart",
+    "metaGo.addCursorSmart",
+    "metaGo.metaJump.deleteToSmart"
+  ],
+  "metaGo.decoration.backgroundOpacity": "1",
+  "metaGo.decoration.color": "black,blue"
 }

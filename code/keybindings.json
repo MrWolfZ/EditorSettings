@@ -388,5 +388,72 @@
       "value": 10
     },
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.terminal.goToRecentDirectory",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.action.terminal.openDetectedLink",
+    "when": "accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal'"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "alt+.",
+    "command": "-metaGo.gotoAfter"
+  },
+  {
+    "key": "alt+,",
+    "command": "-metaGo.gotoBefore"
+  },
+  {
+    "key": "ctrl+alt+.",
+    "command": "-metaGo.addCursorAfter"
+  },
+  {
+    "key": "ctrl+alt+,",
+    "command": "-metaGo.addCursorBefore"
+  },
+  {
+    "key": "ctrl+alt+/",
+    "command": "-metaGo.addCursorSmart"
+  },
+  {
+    "key": "shift+alt+.",
+    "command": "-metaGo.selectAfter",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+,",
+    "command": "-metaGo.selectBefore",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+/",
+    "command": "-metaGo.selectSmart",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "metaGo.gotoSmart"
+  },
+  {
+    "key": "alt+/",
+    "command": "-metaGo.gotoSmart"
   }
 ]
