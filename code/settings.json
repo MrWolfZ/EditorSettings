@@ -199,5 +199,9 @@
     "metaGo.metaJump.deleteToSmart"
   ],
   "metaGo.decoration.backgroundOpacity": "1",
-  "metaGo.decoration.color": "black,blue"
+  "metaGo.decoration.color": "black,blue",
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.scm.focus",
+    "workbench.view.explorer"
+  ]
 }
