@@ -117,11 +117,11 @@
     "command": "-workbench.action.openGlobalKeybindings"
   },
   {
-    "key": "ctrl+shift+a",
+    "key": "ctrl+;",
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "ctrl+shift+a",
+    "key": "ctrl+;",
     "command": "terminal.focus",
     "when": "!terminalFocus"
   },
@@ -923,7 +923,7 @@
     "command": "workbench.view.explorer"
   },
   {
-    "key": "ctrl+;",
+    "key": "ctrl+shift+a",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -1226,5 +1226,40 @@
   {
     "key": "ctrl+,",
     "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "-notification.acceptPrimaryAction",
+    "when": "notificationFocus || notificationToastsVisible"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "-workbench.view.extension.azure",
+    "when": "viewContainer.workbench.view.extension.azure.enabled"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
   }
 ]
